@@ -1,0 +1,471 @@
+{
+  "providers": {
+    "cpa-gui": {
+      "name": "CPA",
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "apiKey": "{env:CPA_API_KEY}",
+        "baseURL": "{env:CPA_BASE_URL}",
+        "provider": "cpa-gui"
+      },
+      "models": {
+        "claude-fable-5-2": {
+          "name": "Claude Fable",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1000000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        },
+        "claude-opus-5-5": {
+          "name": "Claude Opus",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1000000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        },
+        "claude-sonnet-5-5": {
+          "name": "Claude Sonnet",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1000000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        },
+        "claude-haiku-5-5": {
+          "name": "Claude Haiku",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1000000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        },
+        "gpt-6.2-astra": {
+          "name": "GPT-6.2 Astra",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1050000,
+            "input": 922000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        },
+        "gpt-6.2-sol": {
+          "name": "GPT-6.2 Sol",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1050000,
+            "input": 922000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        },
+        "gpt-6.1-terra": {
+          "name": "GPT-6.1 Terra",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1050000,
+            "input": 922000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        },
+        "gpt-6-luna": {
+          "name": "GPT-6 Luna",
+          "capabilities": {
+            "tools": true,
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          },
+          "limit": {
+            "context": 1050000,
+            "input": 922000,
+            "output": 128000
+          },
+          "variants": [
+            {
+              "id": "low",
+              "settings": {
+                "reasoningEffort": "low"
+              }
+            },
+            {
+              "id": "medium",
+              "settings": {
+                "reasoningEffort": "medium"
+              }
+            },
+            {
+              "id": "high",
+              "settings": {
+                "reasoningEffort": "high"
+              }
+            },
+            {
+              "id": "xhigh",
+              "settings": {
+                "reasoningEffort": "xhigh"
+              }
+            },
+            {
+              "id": "max",
+              "settings": {
+                "reasoningEffort": "max"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "cpa-image": {
+      "name": "CPA Images",
+      "package": "@opencode/ai/providers/openai/images",
+      "settings": {
+        "apiKey": "{env:CPA_API_KEY}",
+        "baseURL": "{env:CPA_BASE_URL}"
+      },
+      "models": {
+        "gpt-image-2.6": {
+          "name": "GPT Image 2.6",
+          "type": "image",
+          "capabilities": {
+            "tools": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ]
+          }
+        },
+        "gpt-image-2.6-flare": {
+          "name": "GPT Image 2.6 Flare",
+          "type": "image",
+          "capabilities": {
+            "tools": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ]
+          }
+        },
+        "gpt-image-2.6-sunburst": {
+          "name": "GPT Image 2.6 Sunburst",
+          "type": "image",
+          "capabilities": {
+            "tools": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

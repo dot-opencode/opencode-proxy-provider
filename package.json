@@ -1,0 +1,41 @@
+{
+  "name": "opencode-proxy-provider",
+  "version": "0.1.0",
+  "description": "OpenCode plugin: CLIProxyAPI providers and models from a shared catalog",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dot-opencode/opencode-proxy-provider.git"
+  },
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/server.ts",
+    "./server": "./src/server.ts"
+  },
+  "files": [
+    "server.ts",
+    "index.ts",
+    "providers.json",
+    "tsconfig.json",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.3.2"
+  },
+  "peerDependencies": {
+    "effect": ">=4.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "latest",
+    "typescript": "5.8.2",
+    "effect": "4.1.0"
+  }
+}
