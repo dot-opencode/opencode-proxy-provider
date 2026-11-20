@@ -1,0 +1,281 @@
+{
+  "presets": {
+    "openai": {
+      "orchestrator": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6.2-sol",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "medium"
+          }
+        ],
+        "skills": [
+          "*"
+        ],
+        "mcps": [
+          "*",
+          "!context7"
+        ]
+      },
+      "oracle": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6.2-astra",
+            "variant": "high"
+          },
+          {
+            "id": "cpa-gui/claude-fable-5-2",
+            "variant": "high"
+          },
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "high"
+          }
+        ],
+        "skills": [
+          "simplify"
+        ],
+        "mcps": []
+      },
+      "explorer": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6-luna",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-haiku-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-sonnet-5-5",
+            "variant": "medium"
+          }
+        ],
+        "skills": [],
+        "mcps": [
+          "websearch",
+          "context7",
+          "gh_grep"
+        ]
+      },
+      "designer": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6.2-astra",
+            "variant": "high"
+          },
+          {
+            "id": "cpa-gui/claude-fable-5-2",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "medium"
+          }
+        ],
+        "skills": [],
+        "mcps": []
+      },
+      "fixer": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6.2-sol",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-sonnet-5-5",
+            "variant": "medium"
+          }
+        ],
+        "skills": [],
+        "mcps": []
+      }
+    },
+    "claude": {
+      "orchestrator": {
+        "model": [
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/gpt-6.2-sol",
+            "variant": "medium"
+          }
+        ],
+        "skills": [
+          "*"
+        ],
+        "mcps": [
+          "*",
+          "!context7"
+        ]
+      },
+      "oracle": {
+        "model": [
+          {
+            "id": "cpa-gui/claude-fable-5-2",
+            "variant": "high"
+          },
+          {
+            "id": "cpa-gui/gpt-6.2-astra",
+            "variant": "high"
+          },
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "high"
+          }
+        ],
+        "skills": [
+          "simplify"
+        ],
+        "mcps": []
+      },
+      "explorer": {
+        "model": [
+          {
+            "id": "cpa-gui/claude-haiku-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-sonnet-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/gpt-6-luna",
+            "variant": "medium"
+          }
+        ],
+        "skills": [],
+        "mcps": [
+          "websearch",
+          "context7",
+          "gh_grep"
+        ]
+      },
+      "designer": {
+        "model": [
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/gpt-6.2-astra",
+            "variant": "high"
+          }
+        ],
+        "skills": [],
+        "mcps": [
+          "aseprite-ai-artist"
+        ]
+      },
+      "fixer": {
+        "model": [
+          {
+            "id": "cpa-gui/claude-sonnet-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/gpt-6.2-sol",
+            "variant": "medium"
+          }
+        ],
+        "skills": [],
+        "mcps": [
+          "aseprite-ai-artist"
+        ]
+      }
+    },
+    "mixed": {
+      "orchestrator": {
+        "model": [
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/gpt-6.2-sol",
+            "variant": "medium"
+          }
+        ],
+        "skills": [
+          "*"
+        ],
+        "mcps": [
+          "*",
+          "!context7"
+        ]
+      },
+      "oracle": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6.2-astra",
+            "variant": "high"
+          },
+          {
+            "id": "cpa-gui/claude-fable-5-2",
+            "variant": "high"
+          },
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "high"
+          }
+        ],
+        "skills": [
+          "simplify"
+        ],
+        "mcps": []
+      },
+      "explorer": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6-luna",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-haiku-5-5",
+            "variant": "medium"
+          }
+        ],
+        "skills": [],
+        "mcps": [
+          "websearch",
+          "context7",
+          "gh_grep"
+        ]
+      },
+      "designer": {
+        "model": [
+          {
+            "id": "cpa-gui/claude-opus-5-5",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/gpt-6.2-astra",
+            "variant": "high"
+          }
+        ],
+        "skills": [],
+        "mcps": []
+      },
+      "fixer": {
+        "model": [
+          {
+            "id": "cpa-gui/gpt-6.2-sol",
+            "variant": "medium"
+          },
+          {
+            "id": "cpa-gui/claude-sonnet-5-5",
+            "variant": "medium"
+          }
+        ],
+        "skills": [],
+        "mcps": []
+      }
+    }
+  }
+}
