@@ -1,6 +1,6 @@
 {
   "name": "opencode-proxy-provider",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "OpenCode plugin: CLIProxyAPI providers and models from a shared catalog",
   "license": "MIT",
   "repository": {

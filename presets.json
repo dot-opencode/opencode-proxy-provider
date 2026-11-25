@@ -5,7 +5,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-opus-5-5",
@@ -24,7 +24,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-fable-5-2",
@@ -66,7 +66,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-fable-5-2",
@@ -84,7 +84,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-sonnet-5-5",
@@ -104,7 +104,7 @@
           },
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           }
         ],
         "skills": [
@@ -123,7 +123,7 @@
           },
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-opus-5-5",
@@ -165,7 +165,7 @@
           },
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           }
         ],
         "skills": [],
@@ -181,7 +181,7 @@
           },
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           }
         ],
         "skills": [],
@@ -199,7 +199,7 @@
           },
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           }
         ],
         "skills": [
@@ -214,7 +214,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-fable-5-2",
@@ -256,7 +256,7 @@
           },
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           }
         ],
         "skills": [],
@@ -266,7 +266,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-sonnet-5-5",
@@ -286,7 +286,7 @@
           },
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           }
         ],
         "skills": [
@@ -301,7 +301,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-fable-5-2",
@@ -343,7 +343,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-astra",
-            "variant": "high"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-fable-5-2",
@@ -361,7 +361,7 @@
         "model": [
           {
             "id": "cpa-gui/gpt-6.2-sol",
-            "variant": "medium"
+            "variant": "xhigh"
           },
           {
             "id": "cpa-gui/claude-sonnet-5-5",
