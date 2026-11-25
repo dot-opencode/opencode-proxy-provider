@@ -26,7 +26,7 @@ Env (resolved from `{env:...}` in `providers.json`):
 
 `presets.json` holds shared [oh-my-opencode-slim](https://github.com/alvinunreal/oh-my-opencode-slim) presets. On startup the plugin writes them into the user slim config (`oh-my-opencode-slim.jsonc` or `.json` in the OpenCode config dir, created if missing). Presets with the same name are replaced. Other presets, the selected `"preset"`, other settings and comments are kept. The file is only rewritten when something changed.
 
-slim reads its config at startup, possibly before this plugin writes it. Presets changed by a plugin update therefore take effect on the next OpenCode restart.
+Presets changed by a plugin update take effect after one OpenCode restart: the plugin writes them during setup, and slim reloads its config from disk when the file changes (its `liveConfigRefresh` setting, on by default). With `liveConfigRefresh: false`, a second restart is needed.
 
 Tests check that every preset model exists in `providers.json`.
 
